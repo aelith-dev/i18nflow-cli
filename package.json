@@ -2,7 +2,7 @@
   "name": "@aelith-dev/i18nflow-cli",
   "version": "0.1.1",
   "bin": {
-    "i18nflow": "dist/index.js"
+    "i18nflow": "./dist/index.js"
   },
   "type": "module",
   "files": [
