@@ -1,0 +1,38 @@
+{
+  "dashboard": {
+    "title": "Dashboard",
+    "welcome": "Willkommen im Dashboard, {{name}}",
+    "logout": "Abmelden"
+  },
+  "settings": {
+    "title": "Einstellungen",
+    "language": "Sprache",
+    "theme": "Thema",
+    "notifications": "Benachrichtigungen",
+    "security": {
+      "title": "Sicherheit",
+      "password": "Passwort",
+      "twoFactorAuth": "Zwei-Faktor-Authentifizierung"
+    }
+  },
+  "profile": {
+    "title": "Profil",
+    "edit": "Profil bearbeiten",
+    "logout": "Abmelden",
+    "deleteAccount": "Konto löschen",
+    "cosmetics": {
+      "title": "Kosmetika",
+      "theme": "Thema",
+      "fontSize": "Schriftgröße"
+    },
+    "asd": "asd"
+  },
+  "common": {
+    "save": "Speichern",
+    "cancel": "Abbrechen",
+    "delete": "Löschen",
+    "loading": "Lädt...",
+    "confirm": "Bist du sicher?",
+    "error": "Ein Fehler ist aufgetreten. Bitte versuche es erneut."
+  }
+}

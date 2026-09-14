@@ -1,0 +1,38 @@
+{
+  "dashboard": {
+    "title": "Tableau de bord",
+    "welcome": "Bienvenue sur le tableau de bord, {{name}}",
+    "logout": "Déconnexion"
+  },
+  "settings": {
+    "title": "Paramètres",
+    "language": "Langue",
+    "theme": "Thème",
+    "notifications": "Notifications",
+    "security": {
+      "title": "Sécurité",
+      "password": "Mot de passe",
+      "twoFactorAuth": "Authentification à deux facteurs"
+    }
+  },
+  "profile": {
+    "title": "Profil",
+    "edit": "Modifier le profil",
+    "logout": "Déconnexion",
+    "deleteAccount": "Supprimer le compte",
+    "cosmetics": {
+      "title": "Cosmétiques",
+      "theme": "Thème",
+      "fontSize": "Taille de police"
+    },
+    "asd": "asd"
+  },
+  "common": {
+    "save": "Enregistrer",
+    "cancel": "Annuler",
+    "delete": "Supprimer",
+    "loading": "Chargement...",
+    "confirm": "Êtes-vous sûr ?",
+    "error": "Une erreur s'est produite. Veuillez réessayer."
+  }
+}

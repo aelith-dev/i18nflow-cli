@@ -1,0 +1,38 @@
+{
+  "dashboard": {
+    "title": "Tablero",
+    "welcome": "Bienvenido al Tablero, {{name}}",
+    "logout": "Cerrar sesión"
+  },
+  "settings": {
+    "title": "Configuración",
+    "language": "Idioma",
+    "theme": "Tema",
+    "notifications": "Notificaciones",
+    "security": {
+      "title": "Seguridad",
+      "password": "Contraseña",
+      "twoFactorAuth": "Autenticación de dos factores"
+    }
+  },
+  "profile": {
+    "title": "Perfil",
+    "edit": "Editar Perfil",
+    "logout": "Cerrar sesión",
+    "deleteAccount": "Eliminar Cuenta",
+    "cosmetics": {
+      "title": "Cosméticos",
+      "theme": "Tema",
+      "fontSize": "Tamaño de Fuente"
+    },
+    "asd": "asd"
+  },
+  "common": {
+    "save": "Guardar",
+    "cancel": "Cancelar",
+    "delete": "Eliminar",
+    "loading": "Cargando...",
+    "confirm": "¿Estás seguro?",
+    "error": "Ocurrió un error. Por favor, inténtalo de nuevo."
+  }
+}
