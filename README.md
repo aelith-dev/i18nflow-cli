@@ -2,7 +2,7 @@
 
 > AI-driven CLI tool to automate, audit, and synchronize multi-language JSON translation files.
 
-[![npm version](https://img.shields.io/npm/v/@dariethjasso/i18nflow-cli.svg)](https://www.npmjs.com/package/@dariethjasso/i18nflow-cli)
+[![npm version](https://img.shields.io/npm/v/@aelith-dev/i18nflow-cli.svg)](https://www.npmjs.com/package/@aelith-dev/i18nflow-cli)
 [![License: MIT](https://img.shields.io/badge/License-MIT-blue.svg)](LICENSE)
 
 ---
