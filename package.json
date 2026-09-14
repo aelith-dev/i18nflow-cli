@@ -1,6 +1,6 @@
 {
   "name": "@aelith-dev/i18nflow-cli",
-  "version": "0.1.1",
+  "version": "0.1.2",
   "bin": {
     "i18nflow": "./dist/index.js"
   },
