@@ -20,14 +20,14 @@
 
 ### Global Install
 ```bash
-npm install -g @dariethjasso/i18nflow-cli
+npm install -g @aelith/i18nflow-cli
 # or via pnpm
-pnpm add -g @dariethjasso/i18nflow-cli
+pnpm add -g @aelith/i18nflow-cli
 ```
 
 ### One-off execution via npx
 ```bash
-npx @dariethjasso/i18nflow-cli ping
+npx @aelith/i18nflow-cli ping
 ```
 
 ---
