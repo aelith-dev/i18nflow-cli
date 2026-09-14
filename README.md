@@ -47,7 +47,6 @@ GROQ_API_KEY=your_groq_api_key_here
 
 | Command | Description |
 | :--- | :--- |
-| `i18nflow ping` | Test CLI connection |
 | `i18nflow init` | Interactive setup to initialize configuration (`i18nflow.config.ts`) and folder structures |
 | `i18nflow add <locale>` | Translate and add a new target locale file based on the source JSON tree |
 | `i18nflow sync` | Detect missing nested keys across target locales and auto-translate/merge them |
