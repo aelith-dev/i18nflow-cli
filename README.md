@@ -9,10 +9,10 @@
 
 ## ✨ Features
 
-*   **AI-Powered Sync**: Automatically detects missing keys across locales and generates accurate translations using Gemini AI.
-*   **Zero-Config Defaults**: Works out-of-the-box with standard JSON i18n directory structures.
+*   **AI-Powered Sync**: Automatically detects missing keys across locales and generates accurate translations using AI (Gemini / Groq).
+*   **Zero-Config Defaults**: Works out-of-the-box with interactive setup and standard JSON i18n directory structures.
 *   **Fast & Deterministic**: Built with Node.js and TypeScript for rapid execution in CI/CD pipelines or local development.
-*   **Clean CLI**: Ergonomic command-line interface (`i18nflow sync`).
+*   **Clean CLI**: Ergonomic command-line interface with interactive prompts (`clack`).
 
 ---
 
@@ -27,35 +27,32 @@ pnpm add -g @dariethjasso/i18nflow-cli
 
 ### One-off execution via npx
 ```bash
-npx @dariethjasso/i18nflow-cli sync
+npx @dariethjasso/i18nflow-cli ping
 ```
 
 ---
 
 ## 🔑 Environment Configuration
 
-Set your Gemini API key in your environment variables or a `.env` file in your project root:
+Set your Gemini or Groq API key in your environment variables or a `.env` file in your project root:
 
 ```env
 GEMINI_API_KEY=your_gemini_api_key_here
+GROQ_API_KEY=your_groq_api_key_here
 ```
 
 ---
 
-## 🛠️ Usage
+## 🛠️ Available Commands
 
-Run the sync command inside your project directory:
-
-```bash
-i18nflow sync
-```
-
-### Options / Flags
-| Flag | Description | Default |
-| :--- | :--- | :--- |
-| `-dir, --locales` | Path to your locales directory | `./locales` |
-| `-base, --base-locale` | Source/reference language | `en` |
-| `-k, --key` | Override Gemini API key via CLI | `process.env.GEMINI_API_KEY` |
+| Command | Description |
+| :--- | :--- |
+| `i18nflow ping` | Test CLI connection |
+| `i18nflow init` | Interactive setup to initialize configuration (`i18nflow.config.ts`) and folder structures |
+| `i18nflow add <locale>` | Translate and add a new target locale file based on the source JSON tree |
+| `i18nflow sync` | Detect missing nested keys across target locales and auto-translate/merge them |
+| `i18nflow diff <locale>` | Show key differences (delta) against the source locale |
+| `i18nflow remove <locale>` | Remove a target locale JSON file and update target configuration |
 
 ---
 
@@ -63,11 +60,9 @@ i18nflow sync
 ```text
 your-project/
 ├── locales/
-│   ├── en/
-│   │   └── common.json  # Base reference
-│   └── es/
-│       └── common.json  # Target (auto-synced)
-└── i18nflow.config.json (optional)
+│   ├── en.json  # Base reference
+│   └── es.json  # Target (auto-synced)
+└── i18nflow.config.ts
 ```
 
 ---
