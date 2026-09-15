@@ -4,6 +4,9 @@
   "bin": {
     "i18nflow": "./dist/index.js"
   },
+  "publishConfig": {
+    "access": "public"
+  },
   "type": "module",
   "files": [
     "dist"
